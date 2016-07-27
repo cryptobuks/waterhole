@@ -5,8 +5,8 @@
     'website': 'http://humanytek.com',
     'depends': ['purchase'],
     'data': [
-        'security/ir.model.access.csv',
-        'security/waterhole_access_rules.xml',
+        # 'security/ir.model.access.csv',
+        # 'security/waterhole_access_rules.xml',
         'views/waterhole.xml',
     ]
 }
