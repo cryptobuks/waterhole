@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openerp>
     <data>
-        <!--- TODO [IMP] -->
+        <record model="ir.actions.act_window" id="waterhole_list_action">
+            <field name="name">Waterholes</field>
+            <field name="res_model">waterhole</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Create the first waterhole
+                </p>
+            </field>
+        </record>
+
+        <menuitem
+            id="menu_product_in_config_waterhole"
+            name="Waterholes"
+            parent="purchase.menu_purchase_config_purchase"
+            sequence="2"
+            action="waterhole_list_action"/>
     </data>
 </openerp>
