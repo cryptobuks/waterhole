@@ -1,4 +1,4 @@
-from openerp import api, fields, models
+from openerp import api, fields, models, _
 
 
 class Waterhole(models.Model):
