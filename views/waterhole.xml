@@ -11,7 +11,6 @@
                             <field name="name"/>
                             <field name="owner"/>
                             <field name="cubic_meters"/>
-                            <field name="expiration_date"/>
                             <field name="coordinates"/>
                         </group>
                     </sheet>
@@ -27,7 +26,6 @@
                     <field name="name"/>
                     <field name="owner"/>
                     <field name="cubic_meters"/>
-                    <field name="expiration_date"/>
                     <field name="coordinates"/>
                 </tree>
             </field>
