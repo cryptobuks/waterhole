@@ -8,5 +8,6 @@
         # 'security/ir.model.access.csv',
         # 'security/waterhole_access_rules.xml',
         'views/waterhole.xml',
+        "views/purchase_waterhole.xml",
     ]
 }
