@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openerp>
     <data>
+        <record model="ir.ui.view" id="waterhole_form_view">
+            <field name="name">waterhole.form</field>
+            <field name="model">waterhole</field>
+            <field name="arch" type="xml">
+                <form string="Waterhole Form">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="owner"/>
+                            <field name="cubic_meters"/>
+                            <field name="expiration_date"/>
+                            <field name="coordinates"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
         <record model="ir.ui.view" id="waterhole_tree_view">
             <field name="name">waterhole.tree</field>
             <field name="model">waterhole</field>
