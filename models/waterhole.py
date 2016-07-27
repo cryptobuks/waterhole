@@ -9,3 +9,9 @@ class Waterhole(models.Model):
     Cubic meters = fields.Float(required=True)
     Expiration date = fields.Date(required=True)
     Coordinates = fields.Char(required=True)
+
+    _sql_constraints = [
+        ('waterhole_id_unique',
+         'UNIQUE(name)',
+         _("The waterhole id must be unique")),
+    ]
