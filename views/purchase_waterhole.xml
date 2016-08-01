@@ -13,8 +13,6 @@
                             <field name="owner"/>
                             <field name="cubic_meters"/>
                             <field name="coordinates"/>
-                        </group>
-                        <group>
                             <field name="expiration_date"/>
                         </group>
                     </page>

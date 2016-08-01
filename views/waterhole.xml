@@ -12,6 +12,7 @@
                             <field name="owner"/>
                             <field name="cubic_meters"/>
                             <field name="coordinates"/>
+                            <field name="expiration_date"/>
                         </group>
                     </sheet>
                 </form>
@@ -22,11 +23,12 @@
             <field name="name">waterhole.tree</field>
             <field name="model">waterhole</field>
             <field name="arch" type="xml">
-                <tree string="Waterhole Tree">
+                <tree string="Waterhole Tree" colors="red: expiration_date &lt; current_date">
                     <field name="name"/>
                     <field name="owner"/>
                     <field name="cubic_meters"/>
                     <field name="coordinates"/>
+                    <field name="expiration_date"/>
                 </tree>
             </field>
         </record>
