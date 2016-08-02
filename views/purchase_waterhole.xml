@@ -9,7 +9,7 @@
                 <notebook position="inside">
                     <page string="Waterhole">
                         <group>
-                            <field name="waterhole_id"/>
+                            <field name="waterhole_id" attrs="{'required':[('contract_type', 'in', ['axc'])]}"/>
                             <field name="owner"/>
                             <field name="cubic_meters"/>
                             <field name="coordinates"/>
