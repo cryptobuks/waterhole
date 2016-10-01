@@ -5,7 +5,7 @@ class Waterhole(models.Model):
     _name = 'waterhole'
 
     name = fields.Char(string="Watterhole ID", required=True)
-    owner = fields.Many2one('res.partner', required=True)
+    owner = fields.Char(required=True)
     cubic_meters = fields.Float(required=True)
     coordinates = fields.Char()
     expiration_date = fields.Date(required=True)
